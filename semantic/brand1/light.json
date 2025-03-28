@@ -1,229 +1,181 @@
 {
     "color": {
-        "illustrations": {
-            "peachlight": {
-                "$type": "color",
-                "$value": [
-                    "rec1Tcou57ZURQzrt"
-                ]
-            },
-            "pink": {
-                "$type": "color",
-                "$value": [
-                    "rec5HT2ESp0G385RI"
-                ]
-            },
-            "bluesubtle": {
-                "$type": "color",
-                "$value": [
-                    "recyGTmjV9tudbI2N"
-                ]
-            },
-            "green": {
-                "$type": "color",
-                "$value": [
-                    "rec9IMsBzomKjgis8"
-                ]
-            },
-            "orange": {
-                "$type": "color",
-                "$value": [
-                    "recvVKMYyorkItNh8"
-                ]
-            },
-            "blue": {
-                "$type": "color",
-                "$value": [
-                    "reca08Gw1Vno3m268"
-                ]
-            },
-            "purplelight": {
-                "$type": "color",
-                "$value": [
-                    "recceYn1ew15boCcr"
-                ]
-            },
-            "purple": {
-                "$type": "color",
-                "$value": [
-                    "recgDpsyTSKBCuGnu"
-                ]
-            },
-            "peach": {
-                "$type": "color",
-                "$value": [
-                    "recgwqkHdg0ijWBr3"
-                ]
-            },
-            "red": {
-                "$type": "color",
-                "$value": [
-                    "recLofnd1aWGCy9xs"
-                ]
-            },
-            "bluelight": {
-                "$type": "color",
-                "$value": [
-                    "recuTErZfnAte4c7n"
-                ]
-            }
-        },
         "bg": {
             "brand": {
                 "selected": {
-                    "hover": {
-                        "$type": "color",
-                        "$value": [
-                            "recK6PY91J9WlbP3c"
-                        ]
-                    },
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "recTidLIcs2iLdx19"
-                        ]
-                    },
                     "default": {
                         "$type": "color",
-                        "$value": [
-                            "rec7cPqXEp5WOn3NA"
-                        ]
-                    }
-                },
-                "weak": {
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "recvrSC8qqJjc0YYi"
-                        ]
-                    },
-                    "default": {
-                        "$type": "color",
-                        "$value": [
-                            "recTidLIcs2iLdx19"
-                        ]
+                        "$value": "#f6ebff"
                     },
                     "hover": {
                         "$type": "color",
-                        "$value": [
-                            "recVSUkibJDasdRpi"
-                        ]
-                    }
-                },
-                "weaker": {
+                        "$value": "#eeddff"
+                    },
                     "pressed": {
                         "$type": "color",
-                        "$value": [
-                            "recK6PY91J9WlbP3c"
-                        ]
-                    },
-                    "hover": {
-                        "$type": "color",
-                        "$value": [
-                            "rec7cPqXEp5WOn3NA"
-                        ]
+                        "$value": "#e6d0ff"
                     }
                 },
                 "strong": {
+                    "default": {
+                        "$type": "color",
+                        "$value": "#893de7"
+                    },
                     "hover": {
                         "$type": "color",
-                        "$value": [
-                            "recEBks3gdyHOw6i2"
-                        ]
+                        "$value": "#7326d3"
                     },
                     "pressed": {
                         "$type": "color",
-                        "$value": [
-                            "rec3Mpml5dHbXo9wn"
-                        ]
-                    },
+                        "$value": "#5d13b7"
+                    }
+                },
+                "weak": {
                     "default": {
                         "$type": "color",
-                        "$value": [
-                            "recdUiIt28An2nmYN"
-                        ]
+                        "$value": "#e6d0ff"
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": "#dbbbfe"
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": "#cca4fd"
+                    }
+                },
+                "weaker": {
+                    "hover": {
+                        "$type": "color",
+                        "$value": "#f6ebff"
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": "#eeddff"
+                    }
+                }
+            },
+            "danger": {
+                "strong": {
+                    "default": {
+                        "$type": "color",
+                        "$value": "#d31510"
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": "#b40000"
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": "#930000"
+                    }
+                },
+                "weak": {
+                    "default": {
+                        "$type": "color",
+                        "$value": "#ffebe7"
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": "#ffddd6"
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": "#ffcdc3"
                     }
                 }
             },
             "neutral": {
-                "weak": {
+                "strong": {
+                    "default": {
+                        "$type": "color",
+                        "$value": "#464646"
+                    },
                     "hover": {
                         "$type": "color",
-                        "$value": [
-                            "recDSJ8L4hg2HIWxD"
-                        ]
+                        "$value": "#222222"
                     },
                     "pressed": {
                         "$type": "color",
-                        "$value": [
-                            "rec7uYOViR1Pi77xw"
-                        ]
-                    },
-                    "default": {
-                        "$type": "color",
-                        "$value": [
-                            "recn7C6X1nUtkVVQg"
-                        ]
+                        "$value": "#000000"
                     }
                 },
-                "weakest": {
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "recu1j1HtFfuTJe1M"
-                        ]
-                    },
+                "weak": {
                     "default": {
                         "$type": "color",
-                        "$value": [
-                            "rec7HvsOt5vjL4wJm"
-                        ]
+                        "$value": "#6d6d6d"
                     },
                     "hover": {
                         "$type": "color",
-                        "$value": [
-                            "recrXdKUPir3sKf1m"
-                        ]
+                        "$value": "#464646"
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": "#222222"
                     }
                 },
                 "weaker": {
                     "default": {
                         "$type": "color",
-                        "$value": [
-                            "recgt2tja7NOnaln3"
-                        ]
-                    },
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "recEzEnxLxSgeZy1P"
-                        ]
+                        "$value": "#d5d5d5"
                     },
                     "hover": {
                         "$type": "color",
-                        "$value": [
-                            "recH9yo4jbrf4RUJ1"
-                        ]
+                        "$value": "#b1b1b1"
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": "#909090"
                     }
                 },
-                "strong": {
+                "weakest": {
+                    "default": {
+                        "$type": "color",
+                        "$value": "#ffffff"
+                    },
                     "hover": {
                         "$type": "color",
-                        "$value": [
-                            "rec7uYOViR1Pi77xw"
-                        ]
+                        "$value": "#f8f8f8"
                     },
                     "pressed": {
                         "$type": "color",
-                        "$value": [
-                            "rec4rrr9qdda4gtvD"
-                        ]
-                    },
+                        "$value": "#e6e6e6"
+                    }
+                }
+            },
+            "other": {
+                "disabled": {
+                    "$type": "color",
+                    "$value": "#e6e6e6"
+                }
+            },
+            "success": {
+                "strong": {
                     "default": {
                         "$type": "color",
-                        "$value": [
-                            "recDSJ8L4hg2HIWxD"
-                        ]
+                        "$value": "#007a4d"
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": "#00653e"
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": "#005132"
+                    }
+                },
+                "weak": {
+                    "default": {
+                        "$type": "color",
+                        "$value": "#cef8e0"
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": "#adf4ce"
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": "#89ecbc"
                     }
                 }
             },
@@ -231,554 +183,318 @@
                 "level": {
                     "0": {
                         "$type": "color",
-                        "$value": [
-                            "rec7HvsOt5vjL4wJm"
-                        ]
+                        "$value": "#ffffff"
                     },
                     "1": {
                         "$type": "color",
-                        "$value": [
-                            "rec5sMYr01Y6ttwHW"
-                        ]
-                    },
-                    "4": {
-                        "$type": "color",
-                        "$value": [
-                            "recY2grHRWRvExwVW"
-                        ]
-                    },
-                    "3": {
-                        "$type": "color",
-                        "$value": [
-                            "recKtzcrdf6CbAeVZ"
-                        ]
+                        "$value": "#fdfdfd"
                     },
                     "2": {
                         "$type": "color",
-                        "$value": [
-                            "recrXdKUPir3sKf1m"
-                        ]
-                    }
-                }
-            },
-            "danger": {
-                "strong": {
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "recD8gOm6aW7udfZO"
-                        ]
-                    },
-                    "hover": {
-                        "$type": "color",
-                        "$value": [
-                            "recuycFOoKpDvKnwt"
-                        ]
-                    },
-                    "default": {
-                        "$type": "color",
-                        "$value": [
-                            "recMLs8Zsc4AiJz8b"
-                        ]
-                    }
-                },
-                "weak": {
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "reczxXXwJeFgwAeVz"
-                        ]
-                    },
-                    "hover": {
-                        "$type": "color",
-                        "$value": [
-                            "rec7K5i7tCsBCndSz"
-                        ]
-                    },
-                    "default": {
-                        "$type": "color",
-                        "$value": [
-                            "recSAI5aR42vx9wx2"
-                        ]
-                    }
-                }
-            },
-            "success": {
-                "weak": {
-                    "hover": {
-                        "$type": "color",
-                        "$value": [
-                            "recmU1GTWKDF1myrg"
-                        ]
-                    },
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "recmM5oY7GuBCn33Q"
-                        ]
-                    },
-                    "default": {
-                        "$type": "color",
-                        "$value": [
-                            "recRZNEkUTc8XbNm1"
-                        ]
-                    }
-                },
-                "strong": {
-                    "hover": {
-                        "$type": "color",
-                        "$value": [
-                            "recdn1xjn0p3eKVlT"
-                        ]
-                    },
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "rec9a1dcXK8kAIrCd"
-                        ]
-                    },
-                    "default": {
-                        "$type": "color",
-                        "$value": [
-                            "recNrfnjjn2ye5HdH"
-                        ]
+                        "$value": "#f8f8f8"
                     }
                 }
             },
             "warning": {
-                "weak": {
-                    "hover": {
-                        "$type": "color",
-                        "$value": [
-                            "recqkVV2X9MXyd6Wp"
-                        ]
-                    },
+                "strong": {
                     "default": {
                         "$type": "color",
-                        "$value": [
-                            "recz0enhxYnivLqUE"
-                        ]
-                    },
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "recJxOrVZ64Tn8ji0"
-                        ]
-                    }
-                },
-                "strong": {
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "recFn1b9QWjSkXqyY"
-                        ]
+                        "$value": "#856600"
                     },
                     "hover": {
                         "$type": "color",
-                        "$value": [
-                            "rectrJfWNY50Np4j7"
-                        ]
+                        "$value": "#705300"
                     },
-                    "default": {
+                    "pressed": {
                         "$type": "color",
-                        "$value": [
-                            "recWUmECHl9ww9ViM"
-                        ]
+                        "$value": "#5b4300"
                     }
-                }
-            },
-            "other": {
-                "disabled": {
-                    "$type": "color",
-                    "$value": [
-                        "recu1j1HtFfuTJe1M"
-                    ]
-                }
-            }
-        },
-        "icon": {
-            "success": {
-                "default": {
-                    "$type": "color",
-                    "$value": [
-                        "recNrfnjjn2ye5HdH"
-                    ]
-                },
-                "pressed": {
-                    "$type": "color",
-                    "$value": [
-                        "rec9a1dcXK8kAIrCd"
-                    ]
-                },
-                "hover": {
-                    "$type": "color",
-                    "$value": [
-                        "recdn1xjn0p3eKVlT"
-                    ]
-                }
-            },
-            "neutral": {
-                "inverted": {
-                    "$type": "color",
-                    "$value": [
-                        "rec5sMYr01Y6ttwHW"
-                    ]
-                },
-                "oncolor": {
-                    "$type": "color",
-                    "$value": [
-                        "rec5sMYr01Y6ttwHW"
-                    ]
-                },
-                "weaker": {
-                    "$type": "color",
-                    "$value": [
-                        "recEzEnxLxSgeZy1P"
-                    ]
                 },
                 "weak": {
-                    "$type": "color",
-                    "$value": [
-                        "recn7C6X1nUtkVVQg"
-                    ]
-                },
-                "strong": {
-                    "$type": "color",
-                    "$value": [
-                        "rec7uYOViR1Pi77xw"
-                    ]
-                }
-            },
-            "danger": {
-                "pressed": {
-                    "$type": "color",
-                    "$value": [
-                        "recD8gOm6aW7udfZO"
-                    ]
-                },
-                "hover": {
-                    "$type": "color",
-                    "$value": [
-                        "recuycFOoKpDvKnwt"
-                    ]
-                },
-                "default": {
-                    "$type": "color",
-                    "$value": [
-                        "recMLs8Zsc4AiJz8b"
-                    ]
-                }
-            },
-            "brand": {
-                "hover": {
-                    "$type": "color",
-                    "$value": [
-                        "recEBks3gdyHOw6i2"
-                    ]
-                },
-                "pressed": {
-                    "$type": "color",
-                    "$value": [
-                        "rec3Mpml5dHbXo9wn"
-                    ]
-                },
-                "default": {
-                    "$type": "color",
-                    "$value": [
-                        "recdUiIt28An2nmYN"
-                    ]
-                }
-            },
-            "other": {
-                "disabled": {
-                    "$type": "color",
-                    "$value": [
-                        "recH9yo4jbrf4RUJ1"
-                    ]
-                }
-            },
-            "warning": {
-                "default": {
-                    "$type": "color",
-                    "$value": [
-                        "recWUmECHl9ww9ViM"
-                    ]
-                },
-                "pressed": {
-                    "$type": "color",
-                    "$value": [
-                        "recFn1b9QWjSkXqyY"
-                    ]
-                },
-                "hover": {
-                    "$type": "color",
-                    "$value": [
-                        "rectrJfWNY50Np4j7"
-                    ]
+                    "default": {
+                        "$type": "color",
+                        "$value": "#fbf198"
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": "#f8e750"
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": "#f8d904"
+                    }
                 }
             }
         },
         "border": {
-            "other": {
-                "focusring": {
+            "brand": {
+                "default": {
                     "$type": "color",
-                    "$value": [
-                        "rec7PcLVydwCPltQj"
-                    ]
+                    "$value": "#893de7"
                 },
-                "disabled": {
-                    "$type": "color",
-                    "$value": [
-                        "recH9yo4jbrf4RUJ1"
-                    ]
-                }
-            },
-            "success": {
                 "hover": {
                     "$type": "color",
-                    "$value": [
-                        "recdn1xjn0p3eKVlT"
-                    ]
+                    "$value": "#7326d3"
                 },
                 "pressed": {
                     "$type": "color",
-                    "$value": [
-                        "rec9a1dcXK8kAIrCd"
-                    ]
-                },
+                    "$value": "#5d13b7"
+                }
+            },
+            "danger": {
                 "default": {
                     "$type": "color",
-                    "$value": [
-                        "recNrfnjjn2ye5HdH"
-                    ]
+                    "$value": "#d31510"
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": "#b40000"
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": "#930000"
                 }
             },
             "neutral": {
                 "inverted": {
                     "$type": "color",
-                    "$value": [
-                        "rec5sMYr01Y6ttwHW"
-                    ]
+                    "$value": "#fdfdfd"
                 },
                 "strong": {
                     "$type": "color",
-                    "$value": [
-                        "rec7uYOViR1Pi77xw"
-                    ]
+                    "$value": "#222222"
                 },
                 "weak": {
                     "$type": "color",
-                    "$value": [
-                        "recn7C6X1nUtkVVQg"
-                    ]
+                    "$value": "#6d6d6d"
                 },
                 "weaker": {
                     "$type": "color",
-                    "$value": [
-                        "recEzEnxLxSgeZy1P"
-                    ]
+                    "$value": "#909090"
                 }
             },
-            "brand": {
+            "other": {
+                "disabled": {
+                    "$type": "color",
+                    "$value": "#b1b1b1"
+                },
+                "focusring": {
+                    "$type": "color",
+                    "$value": "#0265dc"
+                }
+            },
+            "success": {
                 "default": {
                     "$type": "color",
-                    "$value": [
-                        "recdUiIt28An2nmYN"
-                    ]
-                },
-                "pressed": {
-                    "$type": "color",
-                    "$value": [
-                        "rec3Mpml5dHbXo9wn"
-                    ]
+                    "$value": "#007a4d"
                 },
                 "hover": {
                     "$type": "color",
-                    "$value": [
-                        "recEBks3gdyHOw6i2"
-                    ]
+                    "$value": "#00653e"
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": "#005132"
                 }
             },
             "warning": {
-                "pressed": {
-                    "$type": "color",
-                    "$value": [
-                        "recFn1b9QWjSkXqyY"
-                    ]
-                },
                 "default": {
                     "$type": "color",
-                    "$value": [
-                        "recWUmECHl9ww9ViM"
-                    ]
+                    "$value": "#856600"
                 },
                 "hover": {
                     "$type": "color",
-                    "$value": [
-                        "rectrJfWNY50Np4j7"
-                    ]
+                    "$value": "#705300"
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": "#5b4300"
+                }
+            }
+        },
+        "icon": {
+            "brand": {
+                "default": {
+                    "$type": "color",
+                    "$value": "#893de7"
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": "#7326d3"
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": "#5d13b7"
                 }
             },
             "danger": {
+                "default": {
+                    "$type": "color",
+                    "$value": "#d31510"
+                },
                 "hover": {
                     "$type": "color",
-                    "$value": [
-                        "recuycFOoKpDvKnwt"
-                    ]
+                    "$value": "#b40000"
                 },
                 "pressed": {
                     "$type": "color",
-                    "$value": [
-                        "recD8gOm6aW7udfZO"
-                    ]
+                    "$value": "#930000"
+                }
+            },
+            "neutral": {
+                "inverted": {
+                    "$type": "color",
+                    "$value": "#fdfdfd"
                 },
+                "oncolor": {
+                    "$type": "color",
+                    "$value": "#fdfdfd"
+                },
+                "strong": {
+                    "$type": "color",
+                    "$value": "#222222"
+                },
+                "weak": {
+                    "$type": "color",
+                    "$value": "#6d6d6d"
+                },
+                "weaker": {
+                    "$type": "color",
+                    "$value": "#909090"
+                }
+            },
+            "other": {
+                "disabled": {
+                    "$type": "color",
+                    "$value": "#b1b1b1"
+                }
+            },
+            "success": {
                 "default": {
                     "$type": "color",
-                    "$value": [
-                        "recMLs8Zsc4AiJz8b"
-                    ]
+                    "$value": "#007a4d"
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": "#00653e"
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": "#005132"
+                }
+            },
+            "warning": {
+                "default": {
+                    "$type": "color",
+                    "$value": "#856600"
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": "#705300"
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": "#5b4300"
                 }
             }
         },
         "text": {
-            "other": {
-                "link": {
-                    "default": {
-                        "$type": "color",
-                        "$value": [
-                            "rec7PcLVydwCPltQj"
-                        ]
-                    },
-                    "pressed": {
-                        "$type": "color",
-                        "$value": [
-                            "recc9mbN8ytp698b2"
-                        ]
-                    },
-                    "hover": {
-                        "$type": "color",
-                        "$value": [
-                            "reclAeZP08to2uzZA"
-                        ]
-                    }
-                },
-                "disabled": {
+            "brand": {
+                "default": {
                     "$type": "color",
-                    "$value": [
-                        "recH9yo4jbrf4RUJ1"
-                    ]
-                }
-            },
-            "warning": {
+                    "$value": "#893de7"
+                },
                 "hover": {
                     "$type": "color",
-                    "$value": [
-                        "rectrJfWNY50Np4j7"
-                    ]
+                    "$value": "#7326d3"
                 },
                 "pressed": {
                     "$type": "color",
-                    "$value": [
-                        "recFn1b9QWjSkXqyY"
-                    ]
-                },
+                    "$value": "#5d13b7"
+                }
+            },
+            "danger": {
                 "default": {
                     "$type": "color",
-                    "$value": [
-                        "recWUmECHl9ww9ViM"
-                    ]
+                    "$value": "#d31510"
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": "#b40000"
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": "#930000"
                 }
             },
             "neutral": {
-                "strong": {
+                "inverted": {
                     "$type": "color",
-                    "$value": [
-                        "rec7uYOViR1Pi77xw"
-                    ]
-                },
-                "weak": {
-                    "$type": "color",
-                    "$value": [
-                        "recn7C6X1nUtkVVQg"
-                    ]
+                    "$value": "#fdfdfd"
                 },
                 "oncolor": {
                     "$type": "color",
-                    "$value": [
-                        "rec5sMYr01Y6ttwHW"
-                    ]
+                    "$value": "#fdfdfd"
+                },
+                "strong": {
+                    "$type": "color",
+                    "$value": "#222222"
+                },
+                "weak": {
+                    "$type": "color",
+                    "$value": "#6d6d6d"
                 },
                 "weaker": {
                     "$type": "color",
-                    "$value": [
-                        "recEzEnxLxSgeZy1P"
-                    ]
-                },
-                "inverted": {
+                    "$value": "#909090"
+                }
+            },
+            "other": {
+                "disabled": {
                     "$type": "color",
-                    "$value": [
-                        "rec5sMYr01Y6ttwHW"
-                    ]
+                    "$value": "#b1b1b1"
+                },
+                "link": {
+                    "default": {
+                        "$type": "color",
+                        "$value": "#0265dc"
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": "#0054b6"
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": "#004491"
+                    }
                 }
             },
             "success": {
                 "default": {
                     "$type": "color",
-                    "$value": [
-                        "recNrfnjjn2ye5HdH"
-                    ]
+                    "$value": "#007a4d"
                 },
                 "hover": {
                     "$type": "color",
-                    "$value": [
-                        "recdn1xjn0p3eKVlT"
-                    ]
+                    "$value": "#00653e"
                 },
                 "pressed": {
                     "$type": "color",
-                    "$value": [
-                        "rec9a1dcXK8kAIrCd"
-                    ]
+                    "$value": "#005132"
                 }
             },
-            "danger": {
-                "hover": {
-                    "$type": "color",
-                    "$value": [
-                        "recuycFOoKpDvKnwt"
-                    ]
-                },
+            "warning": {
                 "default": {
                     "$type": "color",
-                    "$value": [
-                        "recMLs8Zsc4AiJz8b"
-                    ]
+                    "$value": "#856600"
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": "#705300"
                 },
                 "pressed": {
                     "$type": "color",
-                    "$value": [
-                        "recD8gOm6aW7udfZO"
-                    ]
-                }
-            },
-            "brand": {
-                "hover": {
-                    "$type": "color",
-                    "$value": [
-                        "recEBks3gdyHOw6i2"
-                    ]
-                },
-                "default": {
-                    "$type": "color",
-                    "$value": [
-                        "recdUiIt28An2nmYN"
-                    ]
-                },
-                "pressed": {
-                    "$type": "color",
-                    "$value": [
-                        "rec3Mpml5dHbXo9wn"
-                    ]
+                    "$value": "#5b4300"
                 }
             }
         }

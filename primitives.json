@@ -1,11 +1,9 @@
 {
-    "color": {
-        "text": {
-            "neutral": {
-                "strong": {
-                    "$type": "color",
-                    "$value": "light-gray-800"
-                }
+    "light": {
+        "gray": {
+            "50": {
+                "$type": "color",
+                "$value": "#ffffffd"
             }
         }
     }

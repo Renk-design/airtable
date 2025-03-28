@@ -1,6 +1,6 @@
 import os
 import json
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Union
 from airtable import Airtable
 from dotenv import load_dotenv
 
@@ -34,7 +34,7 @@ class TokenSync:
         for record in records:
             fields = record['fields']
             
-            # Only use required fields (lowercase)
+            # Only use required fields
             token = fields.get('token')
             value = fields.get('value')
             type_value = fields.get('type')
@@ -54,7 +54,7 @@ class TokenSync:
             }
         return primitives
 
-    def process_semantic(self, records: List[Dict], primitives: Dict) -> Dict:
+    def process_semantic(self, records: List[Dict]) -> Dict:
         """Process semantic records into theme-specific JSON structure."""
         semantic = {
             'light': {},
@@ -73,27 +73,25 @@ class TokenSync:
                 continue
             
             # Process light mode if available
-            if 'light' in fields:
-                light_value = fields['light']
+            if 'rawvaluelight' in fields:
                 keys = token.split('-')
                 current = semantic['light']
                 for key in keys[:-1]:
                     current = current.setdefault(key, {})
                 current[keys[-1]] = {
                     "$type": type_value,
-                    "$value": light_value
+                    "$value": fields['rawvaluelight'][0] if isinstance(fields['rawvaluelight'], list) else fields['rawvaluelight']
                 }
             
             # Process dark mode if available
-            if 'dark' in fields:
-                dark_value = fields['dark']
+            if 'rawvaluedark' in fields:
                 keys = token.split('-')
                 current = semantic['dark']
                 for key in keys[:-1]:
                     current = current.setdefault(key, {})
                 current[keys[-1]] = {
                     "$type": type_value,
-                    "$value": dark_value
+                    "$value": fields['rawvaluedark'][0] if isinstance(fields['rawvaluedark'], list) else fields['rawvaluedark']
                 }
         
         return semantic
@@ -121,7 +119,7 @@ class TokenSync:
             primitives_data = self.process_primitives(primitives_records)
             
             print("Processing semantic data...")
-            semantic_data = self.process_semantic(semantic_records, primitives_data)
+            semantic_data = self.process_semantic(semantic_records)
 
             # Save primitives
             print("Saving primitives data...")

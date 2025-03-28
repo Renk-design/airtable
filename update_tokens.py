@@ -24,23 +24,16 @@ else:
     # If the file doesn't exist, initialize an empty dictionary
     nested_json = {}
 
-# Load aggregated issue data
-with open("issues.json", "r") as f:
-    issue_lines = f.readlines()
+# Load issue data (raw text from GitHub issue)
+with open("issue.json", "r") as f:
+    issue_data = f.read().strip()
 
-for issue_data in issue_lines:
-    issue_data = issue_data.strip()
-    if not issue_data:  # Skip empty lines
-        continue
+# Split the incoming data
+token, value, type_value = issue_data.split(",")
 
-    # Split the incoming data
-    try:
-        token, value, type_value = issue_data.split(",")
-        keys = token.split("-")
-        insert_or_update_nested(nested_json, keys, type_value, value)
-    except ValueError:
-        print(f"Skipping malformed issue data: {issue_data}")
-        continue
+# Convert token to nested dictionary
+keys = token.split("-")
+insert_or_update_nested(nested_json, keys, type_value, value)
 
 # Save the updated JSON
 with open("primitives.json", "w") as f:

@@ -25,4 +25,4 @@ insert_nested(nested_json, keys, type_value, value)
 with open("primitives.json", "w") as f:
     json.dump(nested_json, f, indent=4)
 
-print("tokens.json updated successfully!")
+print("primitives.json updated successfully!")

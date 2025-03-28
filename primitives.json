@@ -4,6 +4,10 @@
             "75": {
                 "$type": "color",
                 "$value": "#fdfdfd\n"
+            },
+            "50": {
+                "$type": "color",
+                "$value": "#ffffff"
             }
         }
     }

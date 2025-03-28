@@ -16,20 +16,37 @@ class TokenSync:
 
     def get_primitives(self) -> List[Dict]:
         """Fetch all records from primitives table."""
-        return self.primitives_table.get_all()
+        records = self.primitives_table.get_all()
+        # Print first record structure for debugging
+        if records:
+            print("Primitives record structure:", json.dumps(records[0], indent=2))
+        return records
 
     def get_semantic(self) -> List[Dict]:
         """Fetch all records from semantic table."""
-        return self.semantic_table.get_all()
+        records = self.semantic_table.get_all()
+        # Print first record structure for debugging
+        if records:
+            print("Semantic record structure:", json.dumps(records[0], indent=2))
+        return records
 
     def process_primitives(self, records: List[Dict]) -> Dict:
         """Process primitives records into brand-specific JSON structure."""
         primitives = {}
         for record in records:
             fields = record['fields']
+            # Print available fields for debugging
+            print("Available fields in primitives:", list(fields.keys()))
+            
+            # Get the first brand column (assuming it's not 'Token' or 'Type')
+            brand_columns = [col for col in fields.keys() if col not in ['Token', 'Type']]
+            if not brand_columns:
+                print("Warning: No brand columns found in record:", fields)
+                continue
+                
             token = fields['Token']
-            value = fields['Value']
             type_value = fields['Type']
+            value = fields[brand_columns[0]]  # Use the first brand column as value
             
             # Create nested structure
             keys = token.split('-')
@@ -51,6 +68,9 @@ class TokenSync:
         
         for record in records:
             fields = record['fields']
+            # Print available fields for debugging
+            print("Available fields in semantic:", list(fields.keys()))
+            
             token = fields['Token']
             value = fields['Value']  # This links to primitive
             dark_value = fields['Dark_mode']
@@ -77,23 +97,40 @@ class TokenSync:
 
     def sync(self):
         """Main sync function to update all token files."""
-        # Fetch data
-        primitives_records = self.get_primitives()
-        semantic_records = self.get_semantic()
+        try:
+            # Fetch data
+            print("Fetching primitives records...")
+            primitives_records = self.get_primitives()
+            print(f"Found {len(primitives_records)} primitives records")
+            
+            print("Fetching semantic records...")
+            semantic_records = self.get_semantic()
+            print(f"Found {len(semantic_records)} semantic records")
 
-        # Process data
-        primitives_data = self.process_primitives(primitives_records)
-        semantic_data = self.process_semantic(semantic_records, primitives_data)
+            # Process data
+            print("Processing primitives data...")
+            primitives_data = self.process_primitives(primitives_records)
+            
+            print("Processing semantic data...")
+            semantic_data = self.process_semantic(semantic_records, primitives_data)
 
-        # Save primitives
-        self.save_json(primitives_data, 'primitives/brand1.json')
+            # Save primitives
+            print("Saving primitives data...")
+            self.save_json(primitives_data, 'primitives/brand1.json')
 
-        # Save semantic
-        for theme in ['light', 'dark']:
-            self.save_json(
-                semantic_data[theme],
-                f'semantic/brand1/{theme}.json'
-            )
+            # Save semantic
+            print("Saving semantic data...")
+            for theme in ['light', 'dark']:
+                self.save_json(
+                    semantic_data[theme],
+                    f'semantic/brand1/{theme}.json'
+                )
+            
+            print("Sync completed successfully!")
+            
+        except Exception as e:
+            print(f"Error during sync: {str(e)}")
+            raise
 
 if __name__ == "__main__":
     sync = TokenSync()

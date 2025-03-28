@@ -28,6 +28,28 @@ class TokenSync:
             print("Semantic record structure:", json.dumps(records[0], indent=2))
         return records
 
+    def sort_dict_numerically(self, d: Dict) -> Dict:
+        """Sort a dictionary recursively, with numerical sorting for keys that are numbers."""
+        result = {}
+        
+        # Sort the current level's keys
+        sorted_keys = sorted(d.keys(), key=lambda x: (
+            # If the key can be converted to int, use that for sorting
+            int(x) if str(x).isdigit() else float('inf'),
+            # Use the original key as a secondary sort key
+            x
+        ))
+        
+        for key in sorted_keys:
+            value = d[key]
+            # If the value is a dictionary, sort it recursively
+            if isinstance(value, dict) and "$type" not in value:
+                result[key] = self.sort_dict_numerically(value)
+            else:
+                result[key] = value
+                
+        return result
+
     def process_primitives(self, records: List[Dict]) -> Dict:
         """Process primitives records into brand-specific JSON structure."""
         primitives = {}
@@ -52,7 +74,9 @@ class TokenSync:
                 "$type": type_value,
                 "$value": value
             }
-        return primitives
+        
+        # Sort the primitives dictionary recursively
+        return self.sort_dict_numerically(primitives)
 
     def process_semantic(self, records: List[Dict]) -> Dict:
         """Process semantic records into theme-specific JSON structure."""
@@ -94,6 +118,9 @@ class TokenSync:
                     "$value": fields['rawvaluedark'][0] if isinstance(fields['rawvaluedark'], list) else fields['rawvaluedark']
                 }
         
+        # Sort both light and dark themes
+        semantic['light'] = self.sort_dict_numerically(semantic['light'])
+        semantic['dark'] = self.sort_dict_numerically(semantic['dark'])
         return semantic
 
     def save_json(self, data: Dict, filepath: str):

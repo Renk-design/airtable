@@ -3,7 +3,7 @@
         "gray": {
             "75": {
                 "$type": "color",
-                "$value": "#fdfdf"
+                "$value": "#fdfdfd\n"
             }
         }
     }

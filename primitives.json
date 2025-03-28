@@ -1,0 +1,10 @@
+{
+    "light": {
+        "gray": {
+            "50": {
+                "$type": "color",
+                "$value": "#ffffffd"
+            }
+        }
+    }
+}

@@ -17,9 +17,9 @@ jobs:
           echo "${{ github.event.issue.body }}" > issue.json
           echo "${{ github.event.issue.title }}" > title.txt
 
-      - name: Conditional Step - Title Contains 'Feature'
-        if: contains(github.event.issue.title, 'Feature')
-        run: echo "This is a feature request."
+      - name: Conditional Step - Title Contains 'Foundations'
+        if: contains(github.event.issue.title, 'Foundations')
+        run: echo "This is a Foundations request."
 
       - name: Conditional Step - Title Contains 'Bug'
         if: contains(github.event.issue.title, 'Bug')

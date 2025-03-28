@@ -25,7 +25,7 @@ jobs:
         if: contains(github.event.issue.title, 'Bug')
         run: echo "This is a bug report."
 
-      - name: Update tokens.json
+      - name: Update primitives.json
         run: python update_tokens.py
 
       - name: Commit and push changes
@@ -34,6 +34,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add tokens.json
+          git add primitives.json
           git commit -m "Update tokens from issue #${{ github.event.issue.number }}" || echo "No changes to commit"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main

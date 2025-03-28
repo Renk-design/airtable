@@ -1,1 +1,786 @@
-{}
+{
+    "color": {
+        "illustrations": {
+            "peachlight": {
+                "$type": "color",
+                "$value": [
+                    "rec1Tcou57ZURQzrt"
+                ]
+            },
+            "pink": {
+                "$type": "color",
+                "$value": [
+                    "rec5HT2ESp0G385RI"
+                ]
+            },
+            "bluesubtle": {
+                "$type": "color",
+                "$value": [
+                    "recyGTmjV9tudbI2N"
+                ]
+            },
+            "green": {
+                "$type": "color",
+                "$value": [
+                    "rec9IMsBzomKjgis8"
+                ]
+            },
+            "orange": {
+                "$type": "color",
+                "$value": [
+                    "recvVKMYyorkItNh8"
+                ]
+            },
+            "blue": {
+                "$type": "color",
+                "$value": [
+                    "reca08Gw1Vno3m268"
+                ]
+            },
+            "purplelight": {
+                "$type": "color",
+                "$value": [
+                    "recceYn1ew15boCcr"
+                ]
+            },
+            "purple": {
+                "$type": "color",
+                "$value": [
+                    "recgDpsyTSKBCuGnu"
+                ]
+            },
+            "peach": {
+                "$type": "color",
+                "$value": [
+                    "recgwqkHdg0ijWBr3"
+                ]
+            },
+            "red": {
+                "$type": "color",
+                "$value": [
+                    "recLofnd1aWGCy9xs"
+                ]
+            },
+            "bluelight": {
+                "$type": "color",
+                "$value": [
+                    "recuTErZfnAte4c7n"
+                ]
+            }
+        },
+        "bg": {
+            "brand": {
+                "selected": {
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recgMbUx8F2uMxMrA"
+                        ]
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recjLw2mgjLalxrHD"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recJrXDNjc2W4lRu2"
+                        ]
+                    }
+                },
+                "weak": {
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recc9UlSvfD8SniBP"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recjLw2mgjLalxrHD"
+                        ]
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recxaxuDlwUoQtrmS"
+                        ]
+                    }
+                },
+                "weaker": {
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recgMbUx8F2uMxMrA"
+                        ]
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recJrXDNjc2W4lRu2"
+                        ]
+                    }
+                },
+                "strong": {
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "rec2FAjSrlHMCzjgB"
+                        ]
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "rech0Q7WGB7qLlbKm"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recqkjiZu4MG0gprp"
+                        ]
+                    }
+                }
+            },
+            "neutral": {
+                "weak": {
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recRmINSlThCaM6Ae"
+                        ]
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recU595Ob2qpbhUQE"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recIHJc7ULS9rUCFM"
+                        ]
+                    }
+                },
+                "weakest": {
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recNGJUXIZHldly46"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recFr0RSh6NtClbUT"
+                        ]
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recxFeCEuhAhUYQL3"
+                        ]
+                    }
+                },
+                "weaker": {
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recITWQOF5xEqkvKh"
+                        ]
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recZLJKjw3R38WhhJ"
+                        ]
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "rec4Qz3AA9M4HIOYc"
+                        ]
+                    }
+                },
+                "strong": {
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recU595Ob2qpbhUQE"
+                        ]
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recI3p8LPQEU0k5fT"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recRmINSlThCaM6Ae"
+                        ]
+                    }
+                }
+            },
+            "surface": {
+                "level": {
+                    "0": {
+                        "$type": "color",
+                        "$value": [
+                            "recFr0RSh6NtClbUT"
+                        ]
+                    },
+                    "1": {
+                        "$type": "color",
+                        "$value": [
+                            "recYKHbSsvS4zXQhh"
+                        ]
+                    },
+                    "4": {
+                        "$type": "color",
+                        "$value": [
+                            "recNQ75remENxhNHa"
+                        ]
+                    },
+                    "3": {
+                        "$type": "color",
+                        "$value": [
+                            "recsZ7ISIjAQyXqdJ"
+                        ]
+                    },
+                    "2": {
+                        "$type": "color",
+                        "$value": [
+                            "recxFeCEuhAhUYQL3"
+                        ]
+                    }
+                }
+            },
+            "danger": {
+                "strong": {
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recD9cX7Wx1xNciRU"
+                        ]
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recMitQEc9jS37gCF"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "rec8vjYCdInZkIrqr"
+                        ]
+                    }
+                },
+                "weak": {
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recI7aPFToCbTWFV2"
+                        ]
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "reclaUUfgojLcS4jo"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recC0kG3m85eTigN6"
+                        ]
+                    }
+                }
+            },
+            "success": {
+                "weak": {
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recKPAWRQfXLqFDAG"
+                        ]
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recwfN2FhX1PfIHEU"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "reccYonzXt4HGrGEB"
+                        ]
+                    }
+                },
+                "strong": {
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "receSXIme9FJHORB6"
+                        ]
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recw8DHTkG4QjRzMC"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recAlCRaleLv3JfSg"
+                        ]
+                    }
+                }
+            },
+            "warning": {
+                "weak": {
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recJnpda9OMv2kv6a"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recXSRNY49ep35TjK"
+                        ]
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recPf2o2B9W61u5Tn"
+                        ]
+                    }
+                },
+                "strong": {
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recF6zJqs5pc4aZiX"
+                        ]
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recOYArPq1GamUmi2"
+                        ]
+                    },
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recnNiIJ4Pt8X0Kt5"
+                        ]
+                    }
+                }
+            },
+            "other": {
+                "disabled": {
+                    "$type": "color",
+                    "$value": [
+                        "recNGJUXIZHldly46"
+                    ]
+                }
+            }
+        },
+        "icon": {
+            "success": {
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "recAlCRaleLv3JfSg"
+                    ]
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "recw8DHTkG4QjRzMC"
+                    ]
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "receSXIme9FJHORB6"
+                    ]
+                }
+            },
+            "neutral": {
+                "inverted": {
+                    "$type": "color",
+                    "$value": [
+                        "recYKHbSsvS4zXQhh"
+                    ]
+                },
+                "oncolor": {
+                    "$type": "color",
+                    "$value": [
+                        "recYKHbSsvS4zXQhh"
+                    ]
+                },
+                "weaker": {
+                    "$type": "color",
+                    "$value": [
+                        "recZLJKjw3R38WhhJ"
+                    ]
+                },
+                "weak": {
+                    "$type": "color",
+                    "$value": [
+                        "recIHJc7ULS9rUCFM"
+                    ]
+                },
+                "strong": {
+                    "$type": "color",
+                    "$value": [
+                        "recU595Ob2qpbhUQE"
+                    ]
+                }
+            },
+            "danger": {
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "recD9cX7Wx1xNciRU"
+                    ]
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "recMitQEc9jS37gCF"
+                    ]
+                },
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "rec8vjYCdInZkIrqr"
+                    ]
+                }
+            },
+            "brand": {
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "rec2FAjSrlHMCzjgB"
+                    ]
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "rech0Q7WGB7qLlbKm"
+                    ]
+                },
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "recqkjiZu4MG0gprp"
+                    ]
+                }
+            },
+            "other": {
+                "disabled": {
+                    "$type": "color",
+                    "$value": [
+                        "rec4Qz3AA9M4HIOYc"
+                    ]
+                }
+            },
+            "warning": {
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "recnNiIJ4Pt8X0Kt5"
+                    ]
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "recF6zJqs5pc4aZiX"
+                    ]
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "recOYArPq1GamUmi2"
+                    ]
+                }
+            }
+        },
+        "border": {
+            "other": {
+                "focusring": {
+                    "$type": "color",
+                    "$value": [
+                        "recaSrkeEQy8sok0L"
+                    ]
+                },
+                "disabled": {
+                    "$type": "color",
+                    "$value": [
+                        "rec4Qz3AA9M4HIOYc"
+                    ]
+                }
+            },
+            "success": {
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "receSXIme9FJHORB6"
+                    ]
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "recw8DHTkG4QjRzMC"
+                    ]
+                },
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "recAlCRaleLv3JfSg"
+                    ]
+                }
+            },
+            "neutral": {
+                "inverted": {
+                    "$type": "color",
+                    "$value": [
+                        "recYKHbSsvS4zXQhh"
+                    ]
+                },
+                "strong": {
+                    "$type": "color",
+                    "$value": [
+                        "recU595Ob2qpbhUQE"
+                    ]
+                },
+                "weak": {
+                    "$type": "color",
+                    "$value": [
+                        "recIHJc7ULS9rUCFM"
+                    ]
+                },
+                "weaker": {
+                    "$type": "color",
+                    "$value": [
+                        "recZLJKjw3R38WhhJ"
+                    ]
+                }
+            },
+            "brand": {
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "recqkjiZu4MG0gprp"
+                    ]
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "rech0Q7WGB7qLlbKm"
+                    ]
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "rec2FAjSrlHMCzjgB"
+                    ]
+                }
+            },
+            "warning": {
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "recF6zJqs5pc4aZiX"
+                    ]
+                },
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "recnNiIJ4Pt8X0Kt5"
+                    ]
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "recOYArPq1GamUmi2"
+                    ]
+                }
+            },
+            "danger": {
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "recMitQEc9jS37gCF"
+                    ]
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "recD9cX7Wx1xNciRU"
+                    ]
+                },
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "rec8vjYCdInZkIrqr"
+                    ]
+                }
+            }
+        },
+        "text": {
+            "other": {
+                "link": {
+                    "default": {
+                        "$type": "color",
+                        "$value": [
+                            "recaSrkeEQy8sok0L"
+                        ]
+                    },
+                    "pressed": {
+                        "$type": "color",
+                        "$value": [
+                            "recBYRSJmryiEY5UJ"
+                        ]
+                    },
+                    "hover": {
+                        "$type": "color",
+                        "$value": [
+                            "recJmzZkzyo9C67I6"
+                        ]
+                    }
+                },
+                "disabled": {
+                    "$type": "color",
+                    "$value": [
+                        "rec4Qz3AA9M4HIOYc"
+                    ]
+                }
+            },
+            "warning": {
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "recOYArPq1GamUmi2"
+                    ]
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "recF6zJqs5pc4aZiX"
+                    ]
+                },
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "recnNiIJ4Pt8X0Kt5"
+                    ]
+                }
+            },
+            "neutral": {
+                "strong": {
+                    "$type": "color",
+                    "$value": [
+                        "recU595Ob2qpbhUQE"
+                    ]
+                },
+                "weak": {
+                    "$type": "color",
+                    "$value": [
+                        "recIHJc7ULS9rUCFM"
+                    ]
+                },
+                "oncolor": {
+                    "$type": "color",
+                    "$value": [
+                        "recYKHbSsvS4zXQhh"
+                    ]
+                },
+                "weaker": {
+                    "$type": "color",
+                    "$value": [
+                        "recZLJKjw3R38WhhJ"
+                    ]
+                },
+                "inverted": {
+                    "$type": "color",
+                    "$value": [
+                        "recYKHbSsvS4zXQhh"
+                    ]
+                }
+            },
+            "success": {
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "recAlCRaleLv3JfSg"
+                    ]
+                },
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "receSXIme9FJHORB6"
+                    ]
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "recw8DHTkG4QjRzMC"
+                    ]
+                }
+            },
+            "danger": {
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "recMitQEc9jS37gCF"
+                    ]
+                },
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "rec8vjYCdInZkIrqr"
+                    ]
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "recD9cX7Wx1xNciRU"
+                    ]
+                }
+            },
+            "brand": {
+                "hover": {
+                    "$type": "color",
+                    "$value": [
+                        "rec2FAjSrlHMCzjgB"
+                    ]
+                },
+                "default": {
+                    "$type": "color",
+                    "$value": [
+                        "recqkjiZu4MG0gprp"
+                    ]
+                },
+                "pressed": {
+                    "$type": "color",
+                    "$value": [
+                        "rech0Q7WGB7qLlbKm"
+                    ]
+                }
+            }
+        }
+    }
+}

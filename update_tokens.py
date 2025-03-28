@@ -22,7 +22,7 @@ nested_json = {}
 insert_nested(nested_json, keys, type_value, value)
 
 # Save the structured JSON
-with open("tokens.json", "w") as f:
+with open("primitives.json", "w") as f:
     json.dump(nested_json, f, indent=4)
 
 print("tokens.json updated successfully!")

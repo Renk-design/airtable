@@ -17,7 +17,6 @@ class TokenSync:
     def get_primitives(self) -> List[Dict]:
         """Fetch all records from primitives table."""
         records = self.primitives_table.get_all()
-        # Print first record structure for debugging
         if records:
             print("Primitives record structure:", json.dumps(records[0], indent=2))
         return records
@@ -25,7 +24,6 @@ class TokenSync:
     def get_semantic(self) -> List[Dict]:
         """Fetch all records from semantic table."""
         records = self.semantic_table.get_all()
-        # Print first record structure for debugging
         if records:
             print("Semantic record structure:", json.dumps(records[0], indent=2))
         return records
@@ -35,18 +33,15 @@ class TokenSync:
         primitives = {}
         for record in records:
             fields = record['fields']
-            # Print available fields for debugging
-            print("Available fields in primitives:", list(fields.keys()))
             
-            # Get the first brand column (assuming it's not 'Token' or 'Type')
-            brand_columns = [col for col in fields.keys() if col not in ['Token', 'Type']]
-            if not brand_columns:
-                print("Warning: No brand columns found in record:", fields)
+            # Only use required fields
+            token = fields.get('Token')
+            value = fields.get('Value')
+            type_value = fields.get('Type')
+            
+            if not all([token, value, type_value]):
+                print(f"Warning: Skipping record with missing required fields: {fields}")
                 continue
-                
-            token = fields['Token']
-            type_value = fields['Type']
-            value = fields[brand_columns[0]]  # Use the first brand column as value
             
             # Create nested structure
             keys = token.split('-')
@@ -68,16 +63,19 @@ class TokenSync:
         
         for record in records:
             fields = record['fields']
-            # Print available fields for debugging
-            print("Available fields in semantic:", list(fields.keys()))
             
-            token = fields['Token']
-            value = fields['Value']  # This links to primitive
-            dark_value = fields['Dark_mode']
-            type_value = fields['Type']
+            # Only use required fields
+            token = fields.get('Token')
+            type_value = fields.get('Type')
+            light_value = fields.get('Light')
+            dark_value = fields.get('Dark')
+            
+            if not all([token, type_value, light_value, dark_value]):
+                print(f"Warning: Skipping record with missing required fields: {fields}")
+                continue
             
             # Create nested structure for both themes
-            for theme, theme_value in [('light', value), ('dark', dark_value)]:
+            for theme, theme_value in [('light', light_value), ('dark', dark_value)]:
                 keys = token.split('-')
                 current = semantic[theme]
                 for key in keys[:-1]:

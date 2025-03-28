@@ -1,6 +1,7 @@
 name: Update Tokens from Issues
 
 on:
+  workflow_dispatch:
   issues:
     types: [opened, edited]
 

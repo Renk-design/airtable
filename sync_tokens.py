@@ -64,25 +64,36 @@ class TokenSync:
         for record in records:
             fields = record['fields']
             
-            # Only use required fields (lowercase)
+            # Get common fields
             token = fields.get('token')
             type_value = fields.get('type')
-            light_value = fields.get('light')
-            dark_value = fields.get('dark')
             
-            if not all([token, type_value, light_value, dark_value]):
+            if not all([token, type_value]):
                 print(f"Warning: Skipping record with missing required fields: {fields}")
                 continue
             
-            # Create nested structure for both themes
-            for theme, theme_value in [('light', light_value), ('dark', dark_value)]:
+            # Process light mode if available
+            if 'light' in fields:
+                light_value = fields['light']
                 keys = token.split('-')
-                current = semantic[theme]
+                current = semantic['light']
                 for key in keys[:-1]:
                     current = current.setdefault(key, {})
                 current[keys[-1]] = {
                     "$type": type_value,
-                    "$value": theme_value
+                    "$value": light_value
+                }
+            
+            # Process dark mode if available
+            if 'dark' in fields:
+                dark_value = fields['dark']
+                keys = token.split('-')
+                current = semantic['dark']
+                for key in keys[:-1]:
+                    current = current.setdefault(key, {})
+                current[keys[-1]] = {
+                    "$type": type_value,
+                    "$value": dark_value
                 }
         
         return semantic

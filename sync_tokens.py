@@ -34,10 +34,10 @@ class TokenSync:
         for record in records:
             fields = record['fields']
             
-            # Only use required fields
-            token = fields.get('Token')
-            value = fields.get('Value')
-            type_value = fields.get('Type')
+            # Only use required fields (lowercase)
+            token = fields.get('token')
+            value = fields.get('value')
+            type_value = fields.get('type')
             
             if not all([token, value, type_value]):
                 print(f"Warning: Skipping record with missing required fields: {fields}")
@@ -64,11 +64,11 @@ class TokenSync:
         for record in records:
             fields = record['fields']
             
-            # Only use required fields
-            token = fields.get('Token')
-            type_value = fields.get('Type')
-            light_value = fields.get('Light')
-            dark_value = fields.get('Dark')
+            # Only use required fields (lowercase)
+            token = fields.get('token')
+            type_value = fields.get('type')
+            light_value = fields.get('light')
+            dark_value = fields.get('dark')
             
             if not all([token, type_value, light_value, dark_value]):
                 print(f"Warning: Skipping record with missing required fields: {fields}")

@@ -35,9 +35,9 @@ class TokenSync:
             fields = record['fields']
             
             # Only use required fields
-            token = fields.get('Token')
-            value = fields.get('Value')
-            type_value = fields.get('Type')
+            token = fields.get('token')
+            value = fields.get('value')
+            type_value = fields.get('type')
             
             if not all([token, value, type_value]):
                 print(f"Warning: Skipping record with missing required fields: {fields}")

@@ -1,9 +1,9 @@
 {
     "light": {
         "gray": {
-            "50": {
+            "75": {
                 "$type": "color",
-                "$value": "#ffffffd"
+                "$value": "#fdfdf"
             }
         }
     }
